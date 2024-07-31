@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+<div id="mySidepanel" class="sidepanel">
+<h2 style="color: white">Our  Service </h2>
+<td><img border="0" data-original-height="150" data-original-width="190" height="290" src="kijiko.png"style="width:100%"></td></tr><tr><td><h2 style="color: white"><p><center>Saiye Tours</center><h2></p></td></tr>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+  <a href="news.html"style="color: white"><h3><center>News</cernter> </h3></a>
+  <a href="kilimanjaro.html"style="color: white"><center><h5>Mount  Kilimanjaro Climbing</h5></center> </a>
+ <a href="meru.html"style="color: white"><center><h5>Mount Meru Climbing</h5></center> </a>
+<h2 style="color: white  "><center>SAFARI</center> </h2>
+<td><img border="0" data-original-height="150" data-original-width="190" height="290" src="IMG_20211226_082358_199.jpg"style="width:100%"></td>
+<a href="ngorongoro.html"style="color: white"><center><h5>Ngorongro national park</h5></center></a>
+<a href="seluu.html"style="color: white"><center><h5>Seluu national park</h5></center></a>
+<a href="sadan.html"style="color: white"><center><h5>Sadani national park</h5></center></a>
+<a href="serengeti .html"style="color: white"><center><h5>Serengeti national park</h5></center></a>
+<a href="Momela.html"style="color: white"><h5>Arusha national park</h5></a> 
+<a href="Mikumi.html"style="color: white"><h5>Mikumi national park</h5></a>
+<a href=" manyara.html"style="color: white"><h5>Lake manyara national park</h5></a>
+<a href="ruaha.html"style="color: white"><h5>Ruaha national park</h5></a>
+
+<h2 style="color: white"><center>Day Trips</center></h2>
+<img border="0" data-original-height="50" data-original-width="90" height="290" src="slide1.jpg"style="width:
+100%">
+
+<p><a href="chemka.html"style="color: white"><h5><center>hotspringchemka</center></h5></a></p>
+<p><a href="Duluti.html"style="color: white"><center><h5>Lake Duluti</h5> </center></a></p>
+<p><a href="Kinuka.html"style="color: white"><center><h5>Kinukamori waterfall</h5></center></a></p>
+<p><a href="masai.html"style="color: white"><center><h5>Maasai Culture</h5></center> </a></p>
+<p><a href="chala.html"style="color: white"><center><h5>Lake  chala </h5></center> </a></p>
+<p><a href="chaga.html"style="color: white"><center><h5>Chaga Traditionals </h5></center></a></p></td></tr>
+<a href="Zanziba.html"style="color: white"><center><h5>Zanzibar</h5></center></a>
+
+ <a href="conta.html"style="color: white"><h3><center>Contact us</center> </h3></a><a href="About.html"style="color: white"><center> About Us</center></a>
+
+
+
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">&#9779;</button>  
+  <h2>Collapsed Sidebar</h2>
+  <p>Click on the hamburger menu/bar icon to open the sidebar, and push this content to the right.</p>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+</body>
+</html> 
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="gallery">
+  <a  target="_blank" href="Goals.html">
+    <img src="1681418308576.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc"><a href="Goals.html">Goal</a></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="1681418308576.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc"><a href="Goals.html">Goal</a></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="1681418308576.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc"><a href="Goals.html">Goal</a></div>
+</div>
+
+
+</body>
+</html>
+<tr>
+<td><img src="20230516_230929.jpg"alt="
+width="50" heigth="50pc"style="width:100%"></td>
+</tr>
